@@ -1,3 +1,4 @@
+## Programming Exercise 2 DSL
 ## makeCacheMatrix takes and stores a matrix and inverse, caching the data
 ##     exposes four functions 
 ##       get - returns original matrix data
@@ -18,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cacheSolve takes a matrix structure from makeCache isMatrix
+## cacheSolve takes a matrix structure from makeCache 
 ## and returns the inverse of that matrix and caches it.
 ## the cached inverse is returned if it exists
 
